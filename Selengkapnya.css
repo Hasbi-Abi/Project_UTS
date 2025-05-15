@@ -1,0 +1,166 @@
+#search {
+    background: url("assets/CarRental.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 30em;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .title {
+    width: 100%;
+    text-align: center;
+    font-family: 'Oxanium', cursive;
+  }
+  .title h1 {
+    font-size: 28px;
+  }
+  .title p {
+    font-size: 18px;
+  }
+  .title hr {
+    width: 50%;
+    margin: 20px auto;
+    opacity: 0.5;
+  }
+
+  .form-container {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  .form-group {
+    font-family: 'Oxanium', cursive;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: left;
+  }
+  button {
+    font-family: 'Oxanium', cursive;
+    padding: 8px 25px;
+    background-color: #3463ff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    align-self: flex-end;
+    font-weight: 600;
+  }
+  button:hover {
+    background-color: #004aad;
+  }
+
+
+  .main-content {
+    justify-content: center;
+    margin-top: 20px;
+    padding: 30px;
+    display: flex; /* Mengatur semua elemen utama ke dalam satu baris */
+    gap: 15px; /* Memberikan jarak antar kartu */
+    flex-wrap: wrap; /* Jika layar kecil, kartu akan otomatis menyesuaikan */
+    background: #262729;
+}
+
+  .card {
+    background: #eeeef0;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+  }
+
+  .card img {
+    border-radius: 10px;
+}
+
+  .card h3 {
+    align-self: center;
+    font-weight: bolder;
+    margin: 15px 0;
+    font-size: 20px;
+    color: #000000;
+  }
+
+  .card p {
+    align-self: center;
+    font-weight: 800;
+    margin: 5px 0;
+    font-size: 14px;
+    color: #7f8c8d;
+  }
+
+  .rent-btn {
+    background: #3f70f7;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 14px;
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+    width: 100px;
+    align-self: center;
+}
+
+.rent-btn:hover {
+    background: #6b95ff;
+}
+
+
+.promo-section {
+  text-align: center;
+  padding: 20px;
+  background: #262729;
+}
+
+.promo-section h1 {
+  color: white;
+  font-family: 'Oxanium', cursive;
+}
+
+.promo-section p {
+  color: white;
+  font-family: 'Oxanium', cursive;
+}
+
+.promo-card {
+  font-family: 'Oxanium', cursive;
+  background: #eeeef0;
+  padding: 15px;
+  border-radius: 8px;
+  display: inline-block;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.promo-card img {
+  max-width: 100%;
+  border-radius: 5px;
+}
+
+.promo-card p {
+  color: #000000;
+}
+
+.promo-btn {
+  display: inline-block;
+  padding: 10px 15px;
+  background: #e60000;
+  color: #fff;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+}

@@ -1,0 +1,39 @@
+body {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family: 'Oxanium', cursive;
+    background-image: url('assets/BG.png') ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    background-position: center;
+    color: white;
+}
+.container {
+    padding: 50px;
+}
+.logo {
+    width: 600px;
+    margin: 10px auto;
+}
+h1 {
+    font-size: 2em;
+    margin: 15px 0;
+    margin-left: 20px;
+}
+.button {
+    background-color: #3463ff;
+    color: white;
+    padding: 12px 24px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+.button:hover {
+    background-color: #004aad;
+}
